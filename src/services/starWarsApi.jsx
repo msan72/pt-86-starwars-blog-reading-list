@@ -1,5 +1,4 @@
 async function getAllCharacters() {
-    try {
         const response = await fetch('https://swapi.tech/api/people')
         const data = await response.json()
 
@@ -12,17 +11,11 @@ async function getAllCharacters() {
                 return details.result
             })
         )
-
         return arrAux
-
-    } catch (error) {
-        console.log(error)
-    }
 }
 
 
 async function getAllPlanets() {
-    try {
         const response = await fetch('https://swapi.tech/api/planets')
         const data = await response.json()
 
@@ -37,15 +30,10 @@ async function getAllPlanets() {
         )
 
         return arrAux
-
-    } catch (error) {
-        console.log(error)
-    }
 }
 
 
 async function getAllVehicles() {
-    try {
         const response = await fetch('https://swapi.tech/api/vehicles')
         const data = await response.json()
 
@@ -61,10 +49,6 @@ async function getAllVehicles() {
         )
 
         return arrAux
-
-    } catch (error) {
-        console.log(error)
-    }
 }
 
 export {

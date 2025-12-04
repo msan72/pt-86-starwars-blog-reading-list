@@ -105,7 +105,7 @@ export function Detail() {
             break;
 
         default:
-            content = (<p>No se encontró el tipo.</p>);
+            content = (<p>The type was not found.</p>);
     }
 
 return (

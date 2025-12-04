@@ -17,7 +17,7 @@ export const Navbar = () => {
 				src={logo}
 				alt="logo Star Wars"
 				className="mx-4"
-				style={{ width: '150px', height: 'auto' }} />
+				style={{ width: '120px', height: 'auto' }} />
 			<div className="dropdown">
 				<button className="btn btn-secondary dropdown-toggle mx-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
 					Favorites
