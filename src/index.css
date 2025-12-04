@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.bg-custom-dark {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+.my-card {
+    width: 18rem;
+}
+
+.my-carousel {
+    display: flex;
+    overflow-x: scroll;
+    gap: 15px;
+}
+
+.my-carousel::-webkit-scrollbar {
+    height: 0px;
+}
+
+.my-carousel::-webkit-scrollbar-track {
+    background: #121212;
+}
+
+.my-carousel::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 10px;
+    border: 2px solid #121212;
+}
+
+.flex-image {
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
